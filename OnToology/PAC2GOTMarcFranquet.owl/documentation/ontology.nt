@@ -1,0 +1,340 @@
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology: Game of Thrones\nAuthor: Marc Franquet Gonzalez" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasCapital
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasCapital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasCapital> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasCapital> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasCapital> <http://www.w3.org/2000/01/rdf-schema#comment> "The capital city of Kingdoms" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon> <http://www.w3.org/2000/01/rdf-schema#comment> "Logo who represent houses" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom> <http://www.w3.org/2000/01/rdf-schema#comment> "Houses who lives in Kingdom" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Capital
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Capital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Capital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Capital> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Capital> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Capital> <http://www.w3.org/2000/01/rdf-schema#comment> "Cities are capital of Kingdoms" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from> <http://www.w3.org/2000/01/rdf-schema#comment> "Comes from Kingdoms and Houses" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon> <http://www.w3.org/2000/01/rdf-schema#comment> "Icon is a logo which represent Houses" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Arryn
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Arryn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Arryn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Arryn> <http://www.w3.org/2000/01/rdf-schema#comment> "Arryn family." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Baratheon
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Baratheon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Baratheon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Baratheon> <http://www.w3.org/2000/01/rdf-schema#comment> "Baratheon family." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Braavos
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Braavos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Braavos> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Essos> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Braavos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Braavos> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Braavos - Essos" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> <http://www.w3.org/2000/01/rdf-schema#comment> "Capital cities" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Crownlands
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Crownlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Crownlands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Essos> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Crownlands> <http://www.w3.org/2000/01/rdf-schema#comment> "The Crownlands - House Targaryen." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Deer
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Deer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Deer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Deer> <http://www.w3.org/2000/01/rdf-schema#comment> "Deer for Baratheon house." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dorne
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dorne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dorne> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dorne> <http://www.w3.org/2000/01/rdf-schema#comment> "The Dorne - House Martell." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragon
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Mythological> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragon> <http://www.w3.org/2000/01/rdf-schema#comment> "Dragon for Targaryen house." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Essos
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Essos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Essos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Essos> <http://www.w3.org/2000/01/rdf-schema#comment> "Kingdom of Essos." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Eyre
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Eyre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Eyre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Eyre> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Eyrie - The Vale" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Falcon
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Falcon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Falcon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Falcon> <http://www.w3.org/2000/01/rdf-schema#comment> "Falcon for Arryn house." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Greyjoy
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Greyjoy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Greyjoy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Greyjoy> <http://www.w3.org/2000/01/rdf-schema#comment> "Greyjoy family." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Harrenhal
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Harrenhal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Harrenhal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Harrenhal> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Harrenhal - Riverlands" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Highgarden
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Highgarden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Highgarden> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Highgarden> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Highgarden - Reach" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> <http://www.w3.org/2000/01/rdf-schema#comment> "Families that participate in the series Game of Thrones." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Iron_Islands
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Iron_Islands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Iron_Islands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Iron_Islands> <http://www.w3.org/2000/01/rdf-schema#comment> "The Iron Islands - House Greyjoy." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms> <http://www.w3.org/2000/01/rdf-schema#comment> "Kingdoms where families reside." .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/kingdom"@en .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kraken
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kraken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kraken> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Mythological> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kraken> <http://www.w3.org/2000/01/rdf-schema#comment> "Kraken for Greyjoy house." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannisport
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannisport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannisport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannisport> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Lannisport - Westerlands" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannister
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannister> <http://www.w3.org/2000/01/rdf-schema#comment> "Lannister family." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lion
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lion> <http://www.w3.org/2000/01/rdf-schema#comment> "Lion for Lannister house." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo> <http://www.w3.org/2000/01/rdf-schema#comment> "Logo that identifies each family." .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Logo"@es .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Martell
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Martell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Martell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Martell> <http://www.w3.org/2000/01/rdf-schema#comment> "Martell family." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Mythological
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Mythological> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Mythological> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Mythological> <http://www.w3.org/2000/01/rdf-schema#comment> "Mythological simbology." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros> .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Pyke
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Pyke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Pyke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Pyke> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Pyke - Iron Islands" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Reach
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Reach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Reach> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Reach> <http://www.w3.org/2000/01/rdf-schema#comment> "The Reach - House Tyrell." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real> <http://www.w3.org/2000/01/rdf-schema#comment> "Real thing." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Riverlands
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Riverlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Riverlands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Riverlands> <http://www.w3.org/2000/01/rdf-schema#comment> "The Riverlands - House Tully." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Rose
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Rose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Rose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Rose> <http://www.w3.org/2000/01/rdf-schema#comment> "Rose for Tyrell house." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stark
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stark> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Wolf> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stark> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stark> <http://www.w3.org/2000/01/rdf-schema#comment> "Stark family." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stormlands
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stormlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stormlands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stormlands> <http://www.w3.org/2000/01/rdf-schema#comment> "The Stormlands - House Baratheon." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Storms_End
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Storms_End> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Storms_End> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Storms_End> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Storms End - Stormlands" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sun
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sun> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sun> <http://www.w3.org/2000/01/rdf-schema#comment> "Sun for Martell house." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sunspear
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sunspear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sunspear> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sunspear> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Sunspear - Dorne" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Targaryen
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Targaryen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Targaryen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Targaryen> <http://www.w3.org/2000/01/rdf-schema#comment> "Targaryen family." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Trout
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Trout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Trout> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Trout> <http://www.w3.org/2000/01/rdf-schema#comment> "Trout for Tully house." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tully
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tully> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tully> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tully> <http://www.w3.org/2000/01/rdf-schema#comment> "Tully family." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tyrell
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tyrell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tyrell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tyrell> <http://www.w3.org/2000/01/rdf-schema#comment> "Tyrell family." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Vale
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Vale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Vale> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Vale> <http://www.w3.org/2000/01/rdf-schema#comment> "The Vale - House Arryn." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westerlands
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westerlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westerlands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westerlands> <http://www.w3.org/2000/01/rdf-schema#comment> "The Westerlands - House Lannister." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros> <http://www.w3.org/2000/01/rdf-schema#comment> "Kingdom of Westeros." .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Winterfell
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Winterfell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Winterfell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Winterfell> <http://www.w3.org/2000/01/rdf-schema#comment> "City of winterfell - The North" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Wolf
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Wolf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Wolf> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Wolf> <http://www.w3.org/2000/01/rdf-schema#comment> "Wolf for Stark house." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragons
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragons> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragons> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragons> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from> "Targaryen" .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragons> <http://www.w3.org/2000/01/rdf-schema#comment> "Dragons has Kindom and comes from Targaryen" .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragons> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Dragon"@es .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kings_Landing
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kings_Landing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kings_Landing> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kings_Landing> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kings_Landing> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon> "Iron Throne" .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kings_Landing> <http://www.w3.org/2000/01/rdf-schema#comment> "Kings Landing has icon and it is Iron Throne" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North_guard
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North_guard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North_guard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stark> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North_guard> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North_guard> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North_guard> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from> "North kingdom" .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North_guard> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon> "Wolf" .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North_guard> <http://www.w3.org/2000/01/rdf-schema#comment> "North Guard has Wolf icon and comes form North" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#The_Immaculates
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#The_Immaculates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#The_Immaculates> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasCapital> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#The_Immaculates> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#The_Immaculates> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Capital> "Casterly Rock" .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#The_Immaculates> <http://www.w3.org/2000/01/rdf-schema#comment> "The Immaculates has capital of Casterly Rock" .
+# 
+# http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#White_Walker
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#White_Walker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#White_Walker> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#White_Walker> .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#White_Walker> <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from> "Away of wall" .
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#White_Walker> <http://www.w3.org/2000/01/rdf-schema#comment> "White Walkers come from away of wall at North" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,381 @@
+@prefix : <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#> .
+
+<http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones> rdf:type owl:Ontology ;
+                                                                                   rdfs:comment """Ontology: Game of Thrones
+Author: Marc Franquet Gonzalez""" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasCapital
+:hasCapital rdf:type owl:ObjectProperty ;
+            rdfs:domain :Kingdoms ;
+            rdfs:range :Cities ;
+            rdfs:comment "The capital city of Kingdoms" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon
+:hasIcon rdf:type owl:ObjectProperty ;
+         rdfs:domain :Houses ;
+         rdfs:range :Logo ;
+         rdfs:comment "Logo who represent houses" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom
+:hasKindom rdf:type owl:ObjectProperty ;
+           rdfs:domain :Houses ;
+           rdfs:range :Kingdoms ;
+           rdfs:comment "Houses who lives in Kingdom" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Capital
+:Capital rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain :Kingdoms ;
+         rdfs:range xsd:string ;
+         rdfs:comment "Cities are capital of Kingdoms" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from
+:Comes_from rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Houses ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Comes from Kingdoms and Houses" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon
+:Icon rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Logo ;
+      rdfs:range xsd:string ;
+      rdfs:comment "Icon is a logo which represent Houses" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Arryn
+:Arryn rdf:type owl:Class ;
+       rdfs:subClassOf :Houses ;
+       rdfs:comment "Arryn family." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Baratheon
+:Baratheon rdf:type owl:Class ;
+           rdfs:subClassOf :Houses ;
+           rdfs:comment "Baratheon family." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Braavos
+:Braavos rdf:type owl:Class ;
+         owl:equivalentClass :Essos ;
+         rdfs:subClassOf :Cities ;
+         rdfs:comment "City of Braavos - Essos" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities
+:Cities rdf:type owl:Class ;
+        rdfs:comment "Capital cities" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Crownlands
+:Crownlands rdf:type owl:Class ;
+            rdfs:subClassOf :Essos ;
+            rdfs:comment "The Crownlands - House Targaryen." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Deer
+:Deer rdf:type owl:Class ;
+      rdfs:subClassOf :Real ;
+      rdfs:comment "Deer for Baratheon house." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dorne
+:Dorne rdf:type owl:Class ;
+       rdfs:subClassOf :Westeros ;
+       rdfs:comment "The Dorne - House Martell." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragon
+:Dragon rdf:type owl:Class ;
+        rdfs:subClassOf :Mythological ;
+        rdfs:comment "Dragon for Targaryen house." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Essos
+:Essos rdf:type owl:Class ;
+       rdfs:subClassOf :Kingdoms ;
+       rdfs:comment "Kingdom of Essos." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Eyre
+:Eyre rdf:type owl:Class ;
+      rdfs:subClassOf :Cities ;
+      rdfs:comment "City of Eyrie - The Vale" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Falcon
+:Falcon rdf:type owl:Class ;
+        rdfs:subClassOf :Real ;
+        rdfs:comment "Falcon for Arryn house." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Greyjoy
+:Greyjoy rdf:type owl:Class ;
+         rdfs:subClassOf :Houses ;
+         rdfs:comment "Greyjoy family." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Harrenhal
+:Harrenhal rdf:type owl:Class ;
+           rdfs:subClassOf :Cities ;
+           rdfs:comment "City of Harrenhal - Riverlands" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Highgarden
+:Highgarden rdf:type owl:Class ;
+            rdfs:subClassOf :Cities ;
+            rdfs:comment "City of Highgarden - Reach" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses
+:Houses rdf:type owl:Class ;
+        rdfs:comment "Families that participate in the series Game of Thrones." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Iron_Islands
+:Iron_Islands rdf:type owl:Class ;
+              rdfs:subClassOf :Westeros ;
+              rdfs:comment "The Iron Islands - House Greyjoy." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms
+:Kingdoms rdf:type owl:Class ;
+          rdfs:comment "Kingdoms where families reside." ;
+          rdfs:sameAs "https://dbpedia.org/ontology/kingdom"@en .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kraken
+:Kraken rdf:type owl:Class ;
+        rdfs:subClassOf :Mythological ;
+        rdfs:comment "Kraken for Greyjoy house." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannisport
+:Lannisport rdf:type owl:Class ;
+            rdfs:subClassOf :Cities ;
+            rdfs:comment "City of Lannisport - Westerlands" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannister
+:Lannister rdf:type owl:Class ;
+           rdfs:subClassOf :Houses ;
+           rdfs:comment "Lannister family." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lion
+:Lion rdf:type owl:Class ;
+      rdfs:subClassOf :Real ;
+      rdfs:comment "Lion for Lannister house." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo
+:Logo rdf:type owl:Class ;
+      rdfs:comment "Logo that identifies each family." ;
+      rdfs:sameAs "https://dbpedia.org/page/Logo"@es .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Martell
+:Martell rdf:type owl:Class ;
+         rdfs:subClassOf :Houses ;
+         rdfs:comment "Martell family." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Mythological
+:Mythological rdf:type owl:Class ;
+              rdfs:subClassOf :Logo ;
+              rdfs:comment "Mythological simbology." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North
+:North rdf:type owl:Class ;
+       rdfs:subClassOf :Westeros .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Pyke
+:Pyke rdf:type owl:Class ;
+      rdfs:subClassOf :Cities ;
+      rdfs:comment "City of Pyke - Iron Islands" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Reach
+:Reach rdf:type owl:Class ;
+       rdfs:subClassOf :Westeros ;
+       rdfs:comment "The Reach - House Tyrell." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real
+:Real rdf:type owl:Class ;
+      rdfs:subClassOf :Logo ;
+      rdfs:comment "Real thing." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Riverlands
+:Riverlands rdf:type owl:Class ;
+            rdfs:subClassOf :Westeros ;
+            rdfs:comment "The Riverlands - House Tully." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Rose
+:Rose rdf:type owl:Class ;
+      rdfs:subClassOf :Real ;
+      rdfs:comment "Rose for Tyrell house." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stark
+:Stark rdf:type owl:Class ;
+       owl:equivalentClass :Wolf ;
+       rdfs:subClassOf :Houses ;
+       rdfs:comment "Stark family." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stormlands
+:Stormlands rdf:type owl:Class ;
+            rdfs:subClassOf :Westeros ;
+            rdfs:comment "The Stormlands - House Baratheon." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Storms_End
+:Storms_End rdf:type owl:Class ;
+            rdfs:subClassOf :Cities ;
+            rdfs:comment "City of Storms End - Stormlands" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sun
+:Sun rdf:type owl:Class ;
+     rdfs:subClassOf :Real ;
+     rdfs:comment "Sun for Martell house." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sunspear
+:Sunspear rdf:type owl:Class ;
+          rdfs:subClassOf :Cities ;
+          rdfs:comment "City of Sunspear - Dorne" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Targaryen
+:Targaryen rdf:type owl:Class ;
+           rdfs:subClassOf :Houses ;
+           rdfs:comment "Targaryen family." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Trout
+:Trout rdf:type owl:Class ;
+       rdfs:subClassOf :Real ;
+       rdfs:comment "Trout for Tully house." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tully
+:Tully rdf:type owl:Class ;
+       rdfs:subClassOf :Houses ;
+       rdfs:comment "Tully family." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tyrell
+:Tyrell rdf:type owl:Class ;
+        rdfs:subClassOf :Houses ;
+        rdfs:comment "Tyrell family." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Vale
+:Vale rdf:type owl:Class ;
+      rdfs:subClassOf :Westeros ;
+      rdfs:comment "The Vale - House Arryn." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westerlands
+:Westerlands rdf:type owl:Class ;
+             rdfs:subClassOf :Westeros ;
+             rdfs:comment "The Westerlands - House Lannister." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros
+:Westeros rdf:type owl:Class ;
+          rdfs:subClassOf :Kingdoms ;
+          rdfs:comment "Kingdom of Westeros." .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Winterfell
+:Winterfell rdf:type owl:Class ;
+            rdfs:subClassOf :Cities ;
+            rdfs:comment "City of winterfell - The North" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Wolf
+:Wolf rdf:type owl:Class ;
+      rdfs:subClassOf :Real ;
+      rdfs:comment "Wolf for Stark house." .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragons
+:Dragons rdf:type owl:NamedIndividual ;
+         :hasKindom :Dragons ;
+         :Comes_from "Targaryen" ;
+         rdfs:comment "Dragons has Kindom and comes from Targaryen" ;
+         rdfs:sameAs "https://dbpedia.org/page/Dragon"@es .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kings_Landing
+:Kings_Landing rdf:type owl:NamedIndividual ;
+               :hasIcon :Kings_Landing ;
+               :Icon "Iron Throne" ;
+               rdfs:comment "Kings Landing has icon and it is Iron Throne" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North_guard
+:North_guard rdf:type owl:NamedIndividual ,
+                      :Stark ;
+             :hasIcon :North_guard ;
+             :Comes_from "North kingdom" ;
+             :Icon "Wolf" ;
+             rdfs:comment "North Guard has Wolf icon and comes form North" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#The_Immaculates
+:The_Immaculates rdf:type owl:NamedIndividual ;
+                 :hasCapital :The_Immaculates ;
+                 :Capital "Casterly Rock" ;
+                 rdfs:comment "The Immaculates has capital of Casterly Rock" .
+
+
+###  http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#White_Walker
+:White_Walker rdf:type owl:NamedIndividual ;
+              :hasKindom :White_Walker ;
+              :Comes_from "Away of wall" ;
+              rdfs:comment "White Walkers come from away of wall at North" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

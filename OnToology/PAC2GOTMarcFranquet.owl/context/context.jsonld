@@ -1,0 +1,166 @@
+{
+  "@context" : {
+    "Storms_End" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Storms_End"
+    },
+    "Falcon" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Falcon"
+    },
+    "Arryn" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Arryn"
+    },
+    "Westeros" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros"
+    },
+    "Essos" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Essos"
+    },
+    "Tully" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tully"
+    },
+    "Iron_Islands" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Iron_Islands"
+    },
+    "Trout" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Trout"
+    },
+    "Vale" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Vale"
+    },
+    "Deer" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Deer"
+    },
+    "Westerlands" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westerlands"
+    },
+    "Martell" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Martell"
+    },
+    "Baratheon" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Baratheon"
+    },
+    "Dorne" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dorne"
+    },
+    "Lannisport" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannisport"
+    },
+    "Rose" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Rose"
+    },
+    "Riverlands" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Riverlands"
+    },
+    "Cities" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities"
+    },
+    "Real" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real"
+    },
+    "Lion" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lion"
+    },
+    "Icon" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Tyrell" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tyrell"
+    },
+    "Sunspear" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sunspear"
+    },
+    "Lannister" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannister"
+    },
+    "Stormlands" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stormlands"
+    },
+    "Harrenhal" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Harrenhal"
+    },
+    "Dragon" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragon"
+    },
+    "Crownlands" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Crownlands"
+    },
+    "Reach" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Reach"
+    },
+    "Kingdoms" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms"
+    },
+    "Highgarden" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Highgarden"
+    },
+    "Houses" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+    },
+    "Capital" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Capital",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "North" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North"
+    },
+    "Braavos" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Braavos"
+    },
+    "Stark" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stark"
+    },
+    "Targaryen" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Targaryen"
+    },
+    "Greyjoy" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Greyjoy"
+    },
+    "Wolf" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Wolf"
+    },
+    "Mythological" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Mythological"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "Sun" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sun"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasKindom" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom",
+      "@type" : "@id"
+    },
+    "Winterfell" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Winterfell"
+    },
+    "hasCapital" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasCapital",
+      "@type" : "@id"
+    },
+    "Comes_from" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Kraken" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kraken"
+    },
+    "Eyre" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Eyre"
+    },
+    "Logo" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo"
+    },
+    "Pyke" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Pyke"
+    },
+    "hasIcon" : {
+      "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon",
+      "@type" : "@id"
+    }
+  }
+}
