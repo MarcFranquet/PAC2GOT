@@ -1,0 +1,547 @@
+[ {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ontology: Game of Thrones\nAuthor: Marc Franquet Gonzalez"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Arryn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Arryn family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Baratheon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Baratheon family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Braavos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "City of Braavos - Essos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Essos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Capital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Cities are capital of Kingdoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capital cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Comes from Kingdoms and Houses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Crownlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Crownlands - House Targaryen."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Essos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Deer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Deer for Baratheon house."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dorne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Dorne - House Martell."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Dragon for Targaryen house."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Mythological"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from" : [ {
+    "@value" : "Targaryen"
+  } ],
+  "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Dragons"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Dragons has Kindom and comes from Targaryen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "es",
+    "@value" : "https://dbpedia.org/page/Dragon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Essos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Kingdom of Essos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Eyre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "City of Eyrie - The Vale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Falcon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Falcon for Arryn house."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Greyjoy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Greyjoy family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Harrenhal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "City of Harrenhal - Riverlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Highgarden",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "City of Highgarden - Reach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Families that participate in the series Game of Thrones."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Icon is a logo which represent Houses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Iron_Islands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Iron Islands - House Greyjoy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Kingdoms where families reside."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/ontology/kingdom"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kings_Landing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon" : [ {
+    "@value" : "Iron Throne"
+  } ],
+  "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kings_Landing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Kings Landing has icon and it is Iron Throne"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kraken",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Kraken for Greyjoy house."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Mythological"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannisport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "City of Lannisport - Westerlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lannister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lannister family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Lion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lion for Lannister house."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Logo that identifies each family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "es",
+    "@value" : "https://dbpedia.org/page/Logo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Martell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Martell family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Mythological",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Mythological simbology."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North_guard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from" : [ {
+    "@value" : "North kingdom"
+  } ],
+  "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Icon" : [ {
+    "@value" : "Wolf"
+  } ],
+  "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#North_guard"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "North Guard has Wolf icon and comes form North"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Pyke",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "City of Pyke - Iron Islands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Reach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Reach - House Tyrell."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Real thing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Riverlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Riverlands - House Tully."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Rose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Rose for Tyrell house."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Stark family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Wolf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Stormlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Stormlands - House Baratheon."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Storms_End",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "City of Storms End - Stormlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sun for Martell house."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Sunspear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "City of Sunspear - Dorne"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Targaryen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Targaryen family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#The_Immaculates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Capital" : [ {
+    "@value" : "Casterly Rock"
+  } ],
+  "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasCapital" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#The_Immaculates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Immaculates has capital of Casterly Rock"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Trout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Trout for Tully house."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tully",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tully family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Tyrell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tyrell family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Vale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Vale - House Arryn."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westerlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Westerlands - House Lannister."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Westeros",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Kingdom of Westeros."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#White_Walker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Comes_from" : [ {
+    "@value" : "Away of wall"
+  } ],
+  "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#White_Walker"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "White Walkers come from away of wall at North"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Winterfell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "City of winterfell - The North"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Wolf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wolf for Stark house."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Real"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasCapital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The capital city of Kingdoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasIcon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Logo who represent houses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Logo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#hasKindom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Houses who lives in Kingdom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Houses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mfranquet/ontologies/2022/3/Ontology_Game_of_Thrones#Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
